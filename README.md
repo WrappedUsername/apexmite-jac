@@ -1,4 +1,9 @@
-# Apexmite Content Federation - Powered by Jaseci and Jac
+# Apexmite Content Federation - Powered by [Jaseci](https://github.com/Jaseci-Labs/jaseci) and Jac - 🚧 Work In Progress 🏗
+
+<p align="left"> 
+<img src="https://komarev.com/ghpvc/?username=apexmite-jac&label=Profile%20views&color=f79952&style=flat" alt="apexmite-jac" /> 
+<img alt="Stars" src="https://img.shields.io/github/stars/WrappedUsername/apexmite-jac?style=flat-square&labelColor=343b41"/>
+</p>
 
 - Creating markdown mermaid diagrams as pseudocode:
 
