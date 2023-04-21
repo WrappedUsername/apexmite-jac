@@ -19,6 +19,7 @@ graph TD;
     node_conversion_page-->node_premium_content_membership
     node_premium_content_membership-->node_premium_content_federation
     node_creator_dashboard-->node_content_federation
+    node_creator_dashboard-->node_premium_content_federation
     node_anon_guest_access<-->node_content_federation
 ```
 
