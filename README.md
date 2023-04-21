@@ -5,6 +5,8 @@
 <img alt="Stars" src="https://img.shields.io/github/stars/WrappedUsername/apexmite-jac?style=flat-square&labelColor=343b41"/>
 </p>
 
+The structure of the app will be in the form of a graph.
+
 - Creating markdown mermaid diagrams as pseudocode:
 
 ```mermaid
