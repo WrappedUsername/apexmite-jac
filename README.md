@@ -28,10 +28,11 @@ graph TD;
 title: sign-up example
 ---
 erDiagram
-    USER ||--o{ SIGN-UP : clicks-cta-button
-    SIGN-UP ||--|{ SUBSCRIPTION : contains
+    ANON-GUEST-ACCESS ||--o{ SIGN-UP : clicks-cta-button
+    SIGN-UP ||--|{ PREMIUM-CONTENT-FEDERATION : contains
     AUTHORIZED-USER }|..|{ CREATOR-DASHBOARD : uses
-
+    PREMIUM-CONTENT-MEMBERSHIP }|..|{ PREMIUM-CONTENT-FEDERATION : enjoys
+    ANON-GUEST-ACCESS }|..|{ CONTENT-FEDERATION : basic-access
 ```
 
 - Converting that pseudocode into Jac programming language:
