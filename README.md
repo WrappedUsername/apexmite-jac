@@ -16,6 +16,17 @@ graph TD;
     node_success_page-->node_conversion_page
 ```
 
+```mermaid 
+---
+title: sign-up example
+---
+erDiagram
+    USER ||--o{ SIGN-UP : clicks-cta-button
+    SIGN-UP ||--|{ SUBSCRIPTION : contains
+    AUTHORIZED-USER }|..|{ CREATOR-DASHBOARD : uses
+
+```
+
 - Converting that pseudocode into Jac programming language:
 
 ```Jac
