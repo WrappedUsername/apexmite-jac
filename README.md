@@ -13,6 +13,7 @@ The structure of the app will be in the form of a graph.
 graph TD;
     root-->node_landing_page
     node_landing_page-->node_success_page
+    node_landing_page<-->node_anon_guest_access
     node_success_page-->node_conversion_page
     node_conversion_page-->node_creator_dashboard
 ```
