@@ -23,7 +23,8 @@ graph TD;
     node_anon_guest_access<-->node_content_federation
 ```
 
-```mermaid 
+```mermaid
+ 
 ---
 title: sign-up example
 ---
@@ -35,7 +36,34 @@ erDiagram
     ANON-GUEST-ACCESS }|..|{ CONTENT-FEDERATION : basic-access
 ```
 
-- Converting that pseudocode into Jac programming language:
+## Building main.jac file
+
+- Converting the pseudocode into Jac programming language:
+
+```jac
+# import the graph and walker.
+import {*} with "./graph.jac";
+import {*} with "./walker.jac";
+
+# this walker is reponsible for starting the program.
+walker init {
+
+    root {
+        /// @notice creates the landing page
+        spawn here ++> node::landing_page
+
+        #creates an instant of the graph
+        spawn here ++> graph::main_graph;
+
+        #creates an instance of the walker, talker
+        spawn  --> walker::talker;
+    }
+}
+```
+
+## Building walker.jac file
+
+- Converting the pseudocode into Jac programming language:
 
 ```Jac
 node landing_page;
@@ -53,8 +81,6 @@ edge cp_hero_section
 edge cp_cta_button_clicked
 
 walker create_app {
-    root {
-        spawn here ++> node::landing_page
-    }
+    
 }
 ```
