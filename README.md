@@ -16,6 +16,8 @@ graph TD;
     node_landing_page<-->node_anon_guest_access
     node_success_page-->node_conversion_page
     node_conversion_page-->node_creator_dashboard
+    node_creator_dashboard-->node_content_federation
+    node_anon_guest_access<-->node_content_federation
 ```
 
 ```mermaid 
