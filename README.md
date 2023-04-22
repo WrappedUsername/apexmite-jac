@@ -7,6 +7,8 @@
 
 The structure of the app will be in the form of a graph.
 
+- The DNN will be using a rectified linear unit (ReLU) for a faster network.
+
 - Creating markdown mermaid diagrams as pseudocode:
 
 ```mermaid
