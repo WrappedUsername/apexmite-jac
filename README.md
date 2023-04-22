@@ -24,7 +24,7 @@ graph TD;
 ```
 
 ```mermaid
- 
+
 ---
 title: sign-up example
 ---
@@ -84,3 +84,5 @@ walker create_app {
     
 }
 ```
+
+## Continued in moreREADME folder
