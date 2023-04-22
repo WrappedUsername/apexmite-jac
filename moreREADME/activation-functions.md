@@ -20,11 +20,16 @@ Sigmoid/Logistic and Tanh functions should not be used in hidden layers as they 
 Swish function is used in neural networks having a depth greater than 40 layers.
 Finally, a few rules for choosing the activation function for your output layer based on the type of prediction problem that you are solving:
 
-Regression - Linear Activation Function
-Binary Classification—Sigmoid/Logistic Activation Function
-Multiclass Classification—Softmax
-Multilabel Classification—Sigmoid
+- Regression - Linear Activation Function
+- Binary Classification—Sigmoid/Logistic Activation Function
+- Multiclass Classification—Softmax
+- Multilabel Classification—Sigmoid
+
 The activation function used in hidden layers is typically chosen based on the type of neural network architecture.
+
+- Convolutional Neural Network (CNN): ReLU activation function.
+- Recurrent Neural Network: Tanh and/or Sigmoid activation function.
+
 
 ## Linear Activation Function
 
