@@ -5,7 +5,7 @@
 <img alt="Stars" src="https://img.shields.io/github/stars/WrappedUsername/apexmite-jac?style=flat-square&labelColor=343b41"/>
 </p>
 
-Apexmite is a combination of apex and might, and it is more of a title in the realm of cryptids, because the Apexmite or some refer to this being as the Silverking and it is the most powerful cryptid, thus the cryptid at it's apex of might, so I refer to this being as the Apexmite.
+Apexmite is a combination of apex and might, and it is more of a title in the realm of cryptids, because the Apexmite (or some refer to this being as the Silverking), but it is the most powerful cryptid, thus being the cryptid at it's apex of might, so I refer to this being as the Apexmite.
 
 ## Apexmite Content Federation - Hero Section, Call to Action - Apexmite Gamified Browser Economics - Skeptics vs Encounter Witness
 
