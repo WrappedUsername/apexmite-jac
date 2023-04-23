@@ -9,6 +9,10 @@ Apexmite is a combination of apex and might, and it is more of a title in the re
 
 ## Apexmite Content Federation - Hero Section, Call to Action - Apexmite Gamified Browser Economics - Skeptics vs Encounter Witness
 
+```yml
+Apexmite will be the name of the AI Agent, and if the user chooses to enable AI voice and avatar, Apexmite will read the hero section below: 
+```
+
 The Apexmite Content Federation will be an AI powered Jaseci Progressive Web App (desktop, and mobile app downloads, along with website).
 
 With the main growth driver being a 50/50 profit share, after business operating costs have been paid, to those that share their *true* stories of unexplained encounters, of ufos, bigfoot, werewolves, etc.
@@ -28,7 +32,7 @@ I honestly think if couch potato skeptics get outside into the forests, out ther
 Get out there into the national forests and parks, and find out, those that share their stories of the unexplained are doing their best to explain something they do not fully understand, so they do not have the burden of proof here, it's *YOU SKEPTICS* that must prove your explainations (and swamp gas ain't gonna cut it here buddy)!
 
 - 50/50 profit share Encounter Witness, free tier
-- 50/50 profit share Encounter Witness, pro AI content assistant subscription
+- 50/50 profit share Encounter Witness, Pro AI Content Assistant subscription - monthly or annual - maybe beta access lifetime premium memberships for a one time payment, (a reward for signing up early).
 - Skeptic Verified Debunking Reward, flipped profit share, the profit share of debunked stories, will become the property of the Skeptic, as their share off the rewards.
 
 Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not createe hoaxes because we encourage the Skeptics to find hoaxes, it's a contest or game.
