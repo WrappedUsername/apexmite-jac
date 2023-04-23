@@ -33,9 +33,9 @@ Get out there into the national forests and parks, and find out, those that shar
 
 - 50/50 profit share Encounter Witness, free tier
 - 50/50 profit share Encounter Witness, Pro AI Content Assistant subscription - monthly or annual - maybe beta access lifetime premium memberships for a one time payment, (a reward for signing up early).
-- Skeptic Verified Debunking Reward, flipped profit share, the profit share of debunked stories, will become the property of the Skeptic, as their share of the rewards.
+- Skeptic Verified Debunking Reward, flipped profit share, the profit share of debunked stories, will become the property of the skeptic, as their share of the rewards.
 
-Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not create hoaxes because we encourage the Skeptics to find hoaxes, it's a contest or game.
+Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not create hoaxes because we encourage the skeptics to find hoaxes, it's like a contest or game.
 
 The structure of the app will be in the form of a graph.
 
