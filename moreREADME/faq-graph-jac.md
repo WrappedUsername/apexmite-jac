@@ -18,7 +18,7 @@ graph TD;
 
 - Converting the pseudocode into Jac programming language:
 
-```JavaScript
+```Jac
 /** 
  * Conversation root state is the name of this node,
  * the majority of the logic is contain in the node abilities,
@@ -41,17 +41,21 @@ edge transition {
 
 graph faq_graph {
     has anchor convo_root_state;
+
     spawn {
         // Spawning the nodes
         conv_root_state = spawn node::faq_state;
+
         faq_state_1 = spawn node::faq_state(
             question="TODO",
             answer="TODO"
         );
+
         faq_state_2 = spawn node::faq_state(
             question="TODO",
             answer="TODO"
         );
+        
         faq_state_3 = spawn node::faq_state(
             question="TODO",
             answer="TODO"
