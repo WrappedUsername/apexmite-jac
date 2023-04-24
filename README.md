@@ -44,18 +44,21 @@ The structure of the app will be in the form of a graph.
 ```mermaid
 graph TD;
     node_root-->node_landing_page
-    node_root-->node_anon_user_dir
     node_root-->node_auth_user_dir
     node_root-->node_biencoder_model
     node_root-->node_entity_extraction
     node_root-->node_embedding_cache
     node_root-->node_conv_root_state
+    node_conv_root_state-->node_VA_state_3
+    node_VA_state_3-->node_VA_state_1
+    node_VA_state_3-->node_VA_state_2
+    node_VA_state_1-->node_VA_state_2
+    node_conv_root_state-->node_VA_state_1
+    node_conv_root_state-->node_VA_state_2
+    node_conv_root_state-->node_faq_state
     node_auth_user_dir-->node_user_data_1
     node_auth_user_dir-->node_user_data_2
     node_auth_user_dir-->node_user_data_3
-    node_anon_user_dir-->node_anon_user_data_1
-    node_anon_user_dir-->node_anon_user_data_2
-    node_anon_user_dir-->node_anon_user_data_3
     node_landing_page-->node_success_page
     node_landing_page<-->node_anon_guest_access
     node_success_page-->node_conversion_page
