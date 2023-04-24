@@ -116,10 +116,10 @@ import {*} with "./walker.jac";
 walker init {
 
     root {
-        // creates an instant of the chat_graph
+        // creates an instance of the chat_graph
         spawn here ++> graph::chat_graph;
         
-        // creates an instant of the faq_graph
+        // creates an instance of the faq_graph
         spawn here ++> graph::chat_graph;
 
         // creates an instance of the walker, talker
