@@ -37,6 +37,24 @@ Get out there into the national forests and parks, and find out, those that shar
 
 Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not create hoaxes because we encourage the skeptics to find hoaxes, it's like a contest or game.
 
+```yml
+Saving state with a maintainer walker:
+```
+
+```jac
+can cleanup with talker entry{
+    if (!vistor:hoping) {
+       spawn *(global.node_conv_root_state) walker::maintainer(
+            user_id = visitor.user_id,
+            user_context = vistor.user_context,
+            dialogue_context = vistor.dialogue_context,
+            last_conv_state = vistor.state_for_continuing
+            // Add ERC-4337 account abstractions or any other saved states, etc here.
+       );
+    }
+}
+```
+
 The structure of the app will be in the form of a graph.
 
 - Creating markdown mermaid diagrams as pseudocode:
