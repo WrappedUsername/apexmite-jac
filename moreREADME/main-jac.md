@@ -13,7 +13,7 @@ walker init {
         spawn here ++> node::landing_page
 
         // creates an instant of the graph
-        spawn here ++> graph::main_graph;
+        spawn here ++> graph::chat_graph;
 
         // creates an instance of the walker, talker
         spawn --> walker::talker;
