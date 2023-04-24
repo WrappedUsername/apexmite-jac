@@ -5,7 +5,7 @@
 import {*} with "./graph.jac";
 import {*} with "./walker.jac";
 
-// this walker is reponsible for starting the program.
+/// @notice this walker is reponsible for starting the program.
 walker init {
 
     root {
@@ -16,9 +16,9 @@ walker init {
         spawn here ++> graph::main_graph;
 
         // creates an instance of the walker, talker
-        spawn  --> walker::talker;
+        spawn --> walker::talker;
 
-        take-->[0];
+        take --> [0];
     }
 }
 ```
