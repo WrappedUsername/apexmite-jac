@@ -31,7 +31,10 @@ With the main growth driver for Apexmite Content Federation being a 50/50 profit
 
 So please, I encourage you to strongly consider sharing your stories of the unexplained with Apexmite Content Federation!
 
-Are *you* a skeptic?
+## Are *you* a skeptic?
+
+<img width="512" height="512" align="left" src="https://user-images.githubusercontent.com/104662990/234379664-8c8a6e4b-956f-4468-b3cb-620e8ebcfc78.jpeg"></img>
+
 
 If *you* think this is all *HOGWASH*, well Apexmite Content Federation encourages *you* to debunk and *respectfully* find and expose possible misunderstandings (you must remain respectful at all times when debunking), skeptics will have a higher burden of proof (we don't want your lazy explainations), and will only be rewarded with third party verification of your debunking claims, of hoaxes, misunderstandings, etc. This does give skeptics a chance to earn rewards if they do debunk stories respectfully with strong third party verifiable proof of your counter aurgument for why this is all hogwash.
 
