@@ -42,8 +42,8 @@ edge transition {
 
 graph chat_graph {
     has anchor convo_root_state;
+    
     spawn {
-
         conv_root_state = spawn node::chat_state(
         title = "Welcome",
         message = "Welcome to Apexmite Content Federation, how can I help?",

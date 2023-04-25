@@ -63,7 +63,7 @@ The structure of the app will be in the form of a graph.
 graph TD;
     node_root-->node_landing_page
     node_root-->node_auth_user_dir
-    node_root-->node_biencoder_model
+    node_root-->node_bi_enc
     node_root-->node_entity_extraction
     node_root-->node_embedding_cache
     node_root-->node_conv_root_state
@@ -120,7 +120,7 @@ walker init {
         spawn here ++> graph::chat_graph;
         
         // creates an instance of the faq_graph
-        spawn here ++> graph::chat_graph;
+        spawn here ++> graph::faq_graph;
 
         // creates an instance of the walker, talker
         spawn --> walker::talker;
