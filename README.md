@@ -35,12 +35,13 @@ So please, I encourage you to strongly consider sharing your stories of the unex
 
 <img width="512" height="512" align="left" src="https://user-images.githubusercontent.com/104662990/234379664-8c8a6e4b-956f-4468-b3cb-620e8ebcfc78.jpeg"></img>
 
-
 If *you* think this is all *HOGWASH*, well Apexmite Content Federation encourages *you* to debunk and *respectfully* find and expose possible misunderstandings (you must remain respectful at all times when debunking), skeptics will have a higher burden of proof (we don't want your lazy explainations), and will only be rewarded with third party verification of your debunking claims, of hoaxes, misunderstandings, etc. This does give skeptics a chance to earn rewards if they do debunk stories respectfully with strong third party verifiable proof of your counter aurgument for why this is all hogwash.
 
 Bring it skeptics, prove everyone wrong.
 
 I honestly think if couch potato skeptics get outside into the forests, out there digging for real info, they are going to find some things, that may just change their mind about ufos, bigfoot, etc.
+
+<img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234382597-58e0498a-11d3-4526-9a3c-93d541d0345c.jpeg"></img>
 
 Get out there into the national forests and parks, and find out, those that share their stories of the unexplained are doing their best to explain something they do not fully understand, so they do not have the burden of proof here, it's *YOU SKEPTICS* that must prove your explainations (and swamp gas ain't gonna cut it here buddy)!
 
