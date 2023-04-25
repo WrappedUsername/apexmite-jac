@@ -5,6 +5,8 @@
 <img alt="Stars" src="https://img.shields.io/github/stars/WrappedUsername/apexmite-jac?style=flat-square&labelColor=343b41"/>
 </p>
 
+![upscaled-ufo](https://user-images.githubusercontent.com/104662990/234375939-9f396255-f339-4bf2-9e2d-984b4fd85fb7.jpeg)
+
 Apexmite is a combination of apex and might, and it is more of a title in the realm of cryptids, because the Apexmite (or some refer to this being as the Silverking), but it is the most powerful cryptid, thus being the cryptid at it's apex of might, so I refer to this being as the Apexmite. This is what I am naming the AI Agents Apexmite will be using.
 
 ## Apexmite Content Federation - Hero Section, Call to Action - Apexmite Gamified Browser Economics - Skeptics vs Encounter Witness
