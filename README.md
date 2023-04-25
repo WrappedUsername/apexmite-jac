@@ -9,6 +9,8 @@
 
 Apexmite is a combination of apex and might, and it is more of a title in the realm of cryptids, because the Apexmite (or some refer to this being as the Silverking), but it is the most powerful cryptid, thus being the cryptid at it's apex of might, so I refer to this being as the Apexmite. This is what I am naming the AI Agents Apexmite will be using.
 
+![apexmite](https://user-images.githubusercontent.com/104662990/234377462-e6961aac-8b2b-4707-af92-e2d6720c3ac2.jpeg)
+
 ## Apexmite Content Federation - Hero Section, Call to Action - Apexmite Gamified Browser Economics - Skeptics vs Encounter Witness
 
 ```yml
