@@ -17,10 +17,11 @@ The Apexmite Content Federation is an AI powered Jaseci Progressive Web App (des
 
 With the main growth driver for Apexmite Content Federation being a 50/50 profit share, after business operating costs have been paid, to those that share their *true* stories of unexplained encounters, of ufos, bigfoot, werewolves, etc.
 
-<img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234371379-574ff1d6-4404-4bf8-a6cb-0ccb880e3467.jpg"></img>
+<img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234374573-8fc4f050-cf32-4ba4-9733-33fb81fac7af.jpg"></img>
 
 <img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234373448-12b122ff-5391-46f1-ac76-e60f3fbf90ef.jpg"></img>
 
+<img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234371379-574ff1d6-4404-4bf8-a6cb-0ccb880e3467.jpg"></img>
 
 If you share your stories with others (I do not mind if you do, please share with others), *but* they do not share the profits *they* make *from your story* this is your content, and I feel *you* should benefit too, from this encounter of the unexplained that *you* experienced.
 
