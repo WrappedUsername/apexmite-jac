@@ -171,4 +171,8 @@ walker init {
 }
 ```
 
+```bash
+sudo service redis-server restart
+```
+
 ## Continued in moreREADME folder
