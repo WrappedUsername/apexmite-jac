@@ -121,6 +121,9 @@ graph TD;
     node_auth_user_dir-->node_user_data_1
     node_auth_user_dir-->node_user_data_2
     node_auth_user_dir-->node_user_data_3
+    node_auth_user_dir<-->node_creator_dashboard
+    node_auth_user_dir<-->node_content_federation
+    node_auth_user_dir<-->node_premium_content_federation
     node_landing_page-->node_success_page
     node_landing_page<-->node_anon_guest_access
     node_success_page-->node_conversion_page
