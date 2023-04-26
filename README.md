@@ -104,9 +104,11 @@ classDiagram
 
 ```mermaid
 graph TD;
-    node_root-->node_landing_page
-    node_root-->node_auth_user_dir
-    node_root-->node_models
+    node_root-->node_server
+    node_root-->node_client
+    node_client-->node_landing_page
+    node_server-->node_models
+    node_server-->node_auth_user_dir
     node_models-->node_bi_enc
     node_models-->node_entity_extraction
     node_models-->node_embedding_cache
