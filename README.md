@@ -188,6 +188,8 @@ walker init {
 
 [main4.pdf](https://github.com/WrappedUsername/apexmite-jac/files/11339110/main4.pdf)
 
+![Screenshot 2023-04-26 205152](https://user-images.githubusercontent.com/104662990/234747611-7e122b57-22b3-496d-b23b-3e384cbf993a.png)
+
 ```bash
 sudo service redis-server restart
 ```
