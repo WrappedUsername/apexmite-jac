@@ -3,9 +3,9 @@ walker ask {
     has question;
     root {
         question = std.input("User > ");
-        take --> node::faq_root;
+        take --> node::faq_state;
     }
-    faq_root {
+    faq_state {
         answers = -->.answer;
         best_answer = use.qa_classify(
             text = question,
