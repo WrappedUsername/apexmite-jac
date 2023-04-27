@@ -15,28 +15,28 @@ graph faq {
         models = spawn node::models;
         faq_state = spawn node::faq_state;
         faq_state_1 = spawn node::faq_state(
-            question="How do I configure my order?",
-            answer="To configure your order, log into your Tesla account."
+            question="What is Apexmite?",
+            answer="TODO"
         );
         faq_state_2 = spawn node::faq_state(
-            question="How do I order a tesla",
-            answer="Visit our design studio to place your order."
+            question="TODO",
+            answer="TODO"
         );
         faq_state_3 = spawn node::faq_state(
-            question="Can I request a test drive",
-            answer="Yes. You must be a minimum of 25 years of age."
+            question="TODO",
+            answer="TODO"
         );
         faq_state_4 = spawn node::faq_state(
-            question="How do I configure my order?",
-            answer="To configure your order, log into your Tesla account."
+            question="TODO",
+            answer="TODO"
         );
         faq_state_5 = spawn node::faq_state(
-            question="How do I order a tesla",
-            answer="Visit our design studio to place your order."
+            question="TODO",
+            answer="TODO"
         );
         faq_state_6 = spawn node::faq_state(
-            question="Can I request a test drive",
-            answer="Yes. You must be a minimum of 25 years of age."
+            question="TODO",
+            answer="TODO"
         );
 
         // Connecting the nodes together
