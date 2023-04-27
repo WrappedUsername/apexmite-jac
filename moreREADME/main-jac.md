@@ -80,8 +80,6 @@ strict digraph root {
     "n3" -> "n9" [ label="e8" ]
 }
 [saved to main.dot]
-jaseci > dot -Tpdf main.dot -o main.pdf
-Command not found: dot -Tpdf main.dot -o main.pdf
 jaseci > exit
 root@Arrakis:~/apexmite-jac/apexmite-jac# dot -Tpdf main.dot -o main.pdf
 root@Arrakis:~/apexmite-jac/apexmite-jac#

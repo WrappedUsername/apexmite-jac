@@ -1,5 +1,5 @@
 // import the graph, kb file, and walkers.
-import {*} with "./server/models/faq-state/graph.jac";
+import {*} with "./server/models/faq-state/faq_graph.jac";
 import {*} with "./server/models/faq-state/ask.jac";
 import {*} with "./server/models/faq-state/kb.jac";
 
