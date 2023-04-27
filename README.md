@@ -70,7 +70,7 @@ can cleanup with talker entry{
 ```
 
 - Nodes, edges, and walkers can all have abilities.
-  - Abilities cannot interact outside of the context and local variables of the attached node, edge, or walker, and does not have a return meaning.
+  - Abilities cannot interact outside of the context and local variables of the attached node, edge, or walker, and does not have a return.
 
 The structure of the app will be in the form of a graph.
 
