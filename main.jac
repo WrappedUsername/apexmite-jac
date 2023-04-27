@@ -7,7 +7,7 @@ import {*} with "./server/models/faq-state/kb.jac";
 walker init {
     root {
         server = spawn here ++> graph::faq;
-        spawn here walker::ingest_faq(kb_file="cloud.json");
+        spawn here walker::ingest_faq(kb_file="main_faq.json");
         while (true){
             spawn here walker::ask;
         }

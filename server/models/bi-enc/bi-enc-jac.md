@@ -2,7 +2,7 @@
 
 This is the built in training and inference bi-encoder.
 
-```jac
+```typescript
 node bi_enc {
     /// @notice These are the two abilities for this node.
     can bi_enc.train, bi_enc.infer;

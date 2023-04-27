@@ -1,6 +1,6 @@
-# Building main.jac file
+# The main.jac file
 
-```jac
+```typescript
 // import the graph, kb file, and walkers.
 import {*} with "./server/models/faq-state/graph.jac";
 import {*} with "./server/models/faq-state/ask.jac";
@@ -18,7 +18,38 @@ walker init {
 }
 ```
 
-## Working graph
+## The main_faq.json file
+
+```json
+[
+    {
+      "question": "What is Apexmite?",
+      "answer": "TODO"
+    },
+    {
+      "question": "TODO",
+      "answer": "TODO"
+    },
+    {
+      "question": "TODO",
+      "answer": "TODO"
+    },
+    {
+      "question": "TODO",
+      "answer": "TODO"
+    },
+    {
+      "question": "TODO",
+      "answer": "TODO"
+    },
+    {
+      "question": "TODO",
+      "answer": "TODO"
+    }
+  ]
+```
+
+## Working faq_graph
 
 ```bash
 root@Arrakis:~/apexmite-jac/apexmite-jac# jsctl -m

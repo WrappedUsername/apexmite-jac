@@ -1,4 +1,4 @@
-# Building faq_graph.jac file
+# Building the faq graph
 
 ```mermaid
 graph TD;
@@ -14,6 +14,8 @@ graph TD;
 ```
 
 - Converting the pseudocode into Jac programming language:
+
+## The faq_graph.jac file
 
 ```typescript
 // Defining the nodes
@@ -71,6 +73,45 @@ graph faq {
 walker init {
     root {
         spawn here ++> node::models;
+    }
+}
+```
+
+## The ask.jac file
+
+```typescript
+walker ask {
+    can use.qa_classify;
+    has question;
+    root {
+        question = std.input("User > ");
+        take --> node::faq_state;
+    }
+    faq_state {
+        answers = -->.answer;
+        best_answer = use.qa_classify(
+            text = question,
+            classes = answers
+        );
+        take --> node::faq_state(answer==best_answer["match"]);
+    }
+    faq_state {
+        std.out(here.answer);
+    }
+}
+```
+
+## The kb.jac file
+
+```typescript
+walker ingest_faq {
+    has kb_file;
+    root: take --> node::faq_state;
+    faq_state {
+        kb = file.load_json(kb_file);
+        for faq in kb {
+            spawn here ++> node::faq_state(answer=faq["answer"]);
+        }
     }
 }
 ```
