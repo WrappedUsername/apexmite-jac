@@ -169,26 +169,24 @@ erDiagram
 - Converting the pseudocode into Jac programming language:
 
 ```typescript
-// import the graph and walker.
-import {*} with "./chat_graph.jac";
-import {*} with "./faq_graph.jac";
-import {*} with "./walker.jac";
+// import the graph, kb file, and walkers.
+import {*} with "./server/models/faq-state/graph.jac";
+import {*} with "./server/models/faq-state/ask.jac";
+import {*} with "./server/models/faq-state/kb.jac";
 
 /// @notice this walker is reponsible for starting the program.
 walker init {
-
     root {
-        // creates an instance of the chat_graph
-        spawn here ++> graph::chat_graph;
-        
-        // creates an instance of the faq_graph
-        spawn here ++> graph::faq_graph;
-
-        // creates an instance of the walker, talker
-        spawn --> walker::talker;
+        server = spawn here ++> graph::faq;
+        spawn here walker::ingest_faq(kb_file="cloud.json");
+        while (true){
+            spawn here walker::ask;
+        }
     }
 }
 ```
+
+[main4.pdf](https://github.com/WrappedUsername/apexmite-jac/files/11339110/main4.pdf)
 
 ```bash
 sudo service redis-server restart
