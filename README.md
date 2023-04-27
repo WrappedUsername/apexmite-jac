@@ -49,30 +49,11 @@ Get out there into the national forests and parks, and find out, those that shar
 - 50/50 profit share Encounter Witness, Pro AI Content Assistant subscription - monthly or annual - maybe beta access lifetime premium memberships for a one time payment, (a reward for signing up early).
 - Skeptic Verified Debunking Reward, flipped profit share, the profit share of debunked stories, will become the property of the skeptic, as their share of the rewards.
 
-## Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not create hoaxes because we encourage the skeptics to find hoaxes, it's like a contest or game.
+Apexmite Content Federation will provide a fiction section for stories that are not true, so please do not create hoaxes because we encourage the skeptics to find hoaxes, it's like a contest or game.
 
-```yml
-Saving state with a maintainer walker:
-```
+## Technical Details
 
-```jac
-can cleanup with talker entry{
-    if (!vistor:hoping) {
-       spawn *(global.node_conv_root_state) walker::maintainer(
-            user_id = visitor.user_id,
-            user_context = vistor.user_context,
-            dialogue_context = vistor.dialogue_context,
-            last_conv_state = vistor.state_for_continuing
-            // Add ERC-4337 account abstractions or any other saved states, etc here.
-       );
-    }
-}
-```
-
-- Nodes, edges, and walkers can all have abilities.
-  - Abilities cannot interact outside of the context and local variables of the attached node, edge, or walker, and does not have a return.
-
-The structure of the app will be in the form of a graph.
+The structure of the progressive web app, will be in the form of a graph.
 
 [reference: Jaseci Bible](https://github.com/Jaseci-Labs/jaseci/raw/main/support/bible/pdf/jaseci_bible.pdf)
 
@@ -100,7 +81,30 @@ classDiagram
   }
 ```
 
-- Creating markdown mermaid diagrams as pseudocode:
+- Nodes, edges, and walkers can all have abilities.
+  - Abilities cannot interact outside of the context or local variables of the attached node, edge, or walker, and does not have a return.
+
+An example of this would be a maintainer walker saving a user's id and last conversation state for continuing the conversation at a later time.
+
+```yml
+Saving state with a maintainer walker:
+```
+
+```jac
+can cleanup with talker entry{
+    if (!vistor:hoping) {
+       spawn *(global.node_conv_root_state) walker::maintainer(
+            user_id = visitor.user_id,
+            user_context = vistor.user_context,
+            dialogue_context = vistor.dialogue_context,
+            last_conv_state = vistor.state_for_continuing
+            // Add ERC-4337 account abstractions or any other saved states, etc here.
+       );
+    }
+}
+```
+
+- Creating mermaid diagrams as pseudocode:
 
 ```mermaid
 graph TD;
@@ -191,6 +195,8 @@ walker init {
 [main4.pdf](https://github.com/WrappedUsername/apexmite-jac/files/11339110/main4.pdf)
 
 ![Screenshot 2023-04-26 205152](https://user-images.githubusercontent.com/104662990/234747611-7e122b57-22b3-496d-b23b-3e384cbf993a.png)
+
+- Starting the Redis server
 
 ```bash
 sudo service redis-server restart
