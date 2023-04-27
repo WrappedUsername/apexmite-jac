@@ -14,27 +14,27 @@ graph faq {
         server = spawn node::server;
         models = spawn node::models;
         faq_state = spawn node::faq_state;
-        faq_state_1 = spawn node::faq_state(
+        faq_state_1 = spawn node::faq_state_1(
             question="What is Apexmite?",
             answer="TODO"
         );
-        faq_state_2 = spawn node::faq_state(
+        faq_state_2 = spawn node::faq_state_2(
             question="TODO",
             answer="TODO"
         );
-        faq_state_3 = spawn node::faq_state(
+        faq_state_3 = spawn node::faq_state_3(
             question="TODO",
             answer="TODO"
         );
-        faq_state_4 = spawn node::faq_state(
+        faq_state_4 = spawn node::faq_state_4(
             question="TODO",
             answer="TODO"
         );
-        faq_state_5 = spawn node::faq_state(
+        faq_state_5 = spawn node::faq_state_5(
             question="TODO",
             answer="TODO"
         );
-        faq_state_6 = spawn node::faq_state(
+        faq_state_6 = spawn node::faq_state_6(
             question="TODO",
             answer="TODO"
         );
