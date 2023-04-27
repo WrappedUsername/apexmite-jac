@@ -90,7 +90,7 @@ An example of this would be a maintainer walker saving a user's id and last conv
 Saving state with a maintainer walker:
 ```
 
-```jac
+```typescript
 can cleanup with talker entry{
     if (!vistor:hoping) {
        spawn *(global.node_conv_root_state) walker::maintainer(
