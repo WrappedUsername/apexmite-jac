@@ -190,7 +190,7 @@ walker init {
 }
 ```
 
-## I built the faq graph from root (isolated) as a test
+## I built the faq graph from root, (isolated) as a test
 
 [main4.pdf](https://github.com/WrappedUsername/apexmite-jac/files/11339110/main4.pdf)
 
