@@ -14,28 +14,32 @@ graph faq {
         models = spawn node::models;
         faq_state = spawn node::faq_state;
         faq_state_1 = spawn node::faq_state(
-            question="What is Apexmite?",
-            answer="TODO"
+            question="What is Apexmite Content Federation?",
+            answer="Apexmite Content Federation Landing Page"
         );
         faq_state_2 = spawn node::faq_state(
-            question="TODO",
-            answer="TODO"
+            question="What are the features and benefits of Apexmite Content Federation?",
+            answer="Features and Benefits of Apexmite Content Federation Page"
         );
         faq_state_3 = spawn node::faq_state(
-            question="TODO",
-            answer="TODO"
+            question="What is the Premium Content Membership?",
+            answer="Premium Content Membership Page"
         );
         faq_state_4 = spawn node::faq_state(
-            question="TODO",
-            answer="TODO"
+            question="What Is the Pro AI Content Assistant Subscription?",
+            answer="Pro AI Content Assistant Subscription Page"
         );
         faq_state_5 = spawn node::faq_state(
-            question="TODO",
-            answer="TODO"
+            question="How much does the Premium Content Membership cost?",
+            answer="Premium Content Membership Pricing Page"
         );
         faq_state_6 = spawn node::faq_state(
-            question="TODO",
-            answer="TODO"
+            question="How much does the Pro AI Content Assistant Subscription cost?",
+            answer="Pro AI Content Assistant Subscription Pricing Page"
+        );
+        faq_state_7 = spawn node::faq_state(
+            question="How do I quit FAQ?",
+            answer="Quit FAQ Button"
         );
 
         // Connecting the nodes together
@@ -47,6 +51,7 @@ graph faq {
         faq_state ++> faq_state_4;
         faq_state ++> faq_state_5;
         faq_state ++> faq_state_6;
+        faq_state ++> faq_state_7;
     }
 }
 
