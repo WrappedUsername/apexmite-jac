@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 # Jaseci
->>>>>>> d217fb1 (Configuring files - Keefe)
 .env
 .jaseci_logs
 *session
@@ -12,9 +9,6 @@ modelout*
 train*
 logoutput
 modeloutput
-<<<<<<< HEAD
-dialogue_intent_model
-=======
 dialogue_intent_model
 
 # See http://help.github.com/ignore-files/ for more about ignoring files.
@@ -55,8 +49,8 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+.env
 
 # System files
 .DS_Store
 Thumbs.db
->>>>>>> d217fb1 (Configuring files - Keefe)

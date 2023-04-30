@@ -190,6 +190,8 @@ walker init {
 }
 ```
 
+- In jaseci 1.4 or later, creating an edge uses the syntax `++>` and referencing an edge uses `-->`.
+
 ## I built the faq graph from root, (isolated) as a test
 
 [main4.pdf](https://github.com/WrappedUsername/apexmite-jac/files/11339110/main4.pdf)
@@ -201,3 +203,9 @@ walker init {
 ```bash
 sudo service redis-server restart
 ```
+
+## The real Jac programming language syntax highlighting in VS Code
+
+![Jac](https://user-images.githubusercontent.com/104662990/235270424-83eb1908-005c-4a99-8103-6f845d186d34.png)
+
+This project's front-end was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
