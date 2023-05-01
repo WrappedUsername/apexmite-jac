@@ -11,7 +11,7 @@ edge intent_transition {
     has intent;
 }
 
-#build the graph
+// Static chat state graph
 
 graph chat_state {
     has anchor server;
