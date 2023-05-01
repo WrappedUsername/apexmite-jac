@@ -7,7 +7,7 @@ node faq_state {
 }
 
 // Static graph definition
-graph faq {
+graph faq_state {
     has anchor server;
     spawn {
         server = spawn node::server;
@@ -38,11 +38,39 @@ graph faq {
             answer="Pro AI Content Assistant Subscription Pricing Page"
         );
         faq_state_7 = spawn node::faq_state(
+            question="Are UFO's real?",
+            answer=""
+        );
+        faq_state_8 = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_9 = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_10 = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_11 = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_ = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_ = spawn node::faq_state(
+            question="?",
+            answer=""
+        );
+        faq_state_ = spawn node::faq_state(
             question="How do I quit FAQ?",
             answer="Quit FAQ Button"
         );
 
-        // Connecting the nodes together
+        // Connecting the nodes together.
         server ++> models;
         models ++> faq_state;
         faq_state ++> faq_state_1;
@@ -52,6 +80,14 @@ graph faq {
         faq_state ++> faq_state_5;
         faq_state ++> faq_state_6;
         faq_state ++> faq_state_7;
+        faq_state ++> faq_state_8;
+        faq_state ++> faq_state_9;
+        faq_state ++> faq_state_10;
+        // Some people might have a lot of questions...
+        faq_state ++> faq_state_;
+        faq_state ++> faq_state_;
+        faq_state ++> faq_state_;
+        faq_state ++> faq_state_;
     }
 }
 

@@ -3,8 +3,8 @@ walker ingest_faq {
     root: take --> node::faq_state;
     faq_state {
         kb = file.load_json(kb_file);
-        for faq in kb {
-            spawn here ++> node::faq_state(answer=faq["answer"]);
+        for faq_state in kb {
+            spawn here ++> node::faq_state(answer=faq_state["answer"]);
         }
     }
 }
