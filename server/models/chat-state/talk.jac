@@ -16,6 +16,6 @@ walker talk {
         take -[intent_transition(intent==predicted_intent)]-> node::chat_state;
     }
     chat_state {
-        std.out(here.response);
+        std.out(here.message);
     }
 }

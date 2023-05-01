@@ -6,10 +6,6 @@ node faq_state {
     has answer;
 }
 
-edge intent_transition {
-    has intent;
-}
-
 // Static graph definition
 graph faq {
     has anchor server;
