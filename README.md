@@ -14,12 +14,12 @@ Apexmite is a combination of apex and might, and it is more of a title in the re
 ## Apexmite Content Federation - Hero Section, Call to Action - Apexmite Gamified Browser Economics - Skeptics vs Encounter Witness
 
 ```yml
-Apexmite will be the name of the AI Agent, and if the user chooses to enable AI voice and avatar, Apexmite will read the hero section below: 
+Apexmite will be the name of the AI Agent, and if the user chooses to enable AI voice and avatar, Apexmite will read the hero section below:
 ```
 
 The Apexmite Content Federation is an AI powered Jaseci Progressive Web App (desktop, and mobile app downloads, along with website). Apexmite AI will always be there to help you navigate the Apexmite App, as a fully interactive conversational AI, for those that are anon guests, skeptics, or free tier contributors. The anon users that choose to purchase a premium content membership, or content creators sharing their encounters that wish to purchase Apexmite's full creative capacity with a Pro AI Content Assistant subscription will get to use Apexmite AI Agents with greater creative abilities, or other enhanced capabilties whenever they are released.
 
-With the main growth driver for Apexmite Content Federation being a 50/50 profit share, after business operating costs have been paid, to those that share their *true* stories of unexplained encounters, of ufos, bigfoot, werewolves, etc.
+With the main growth driver for Apexmite Content Federation being a 50/50 profit share, after business operating costs have been paid, to those that share their _true_ stories of unexplained encounters, of ufos, bigfoot, werewolves, etc.
 
 <img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234374573-8fc4f050-cf32-4ba4-9733-33fb81fac7af.jpg"></img>
 
@@ -27,15 +27,15 @@ With the main growth driver for Apexmite Content Federation being a 50/50 profit
 
 <img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234371379-574ff1d6-4404-4bf8-a6cb-0ccb880e3467.jpg"></img>
 
-## If you share your stories with others (I do not mind if you do, please share with others), *but* they do not share the profits *they* make *from your story* this is your content, and I feel *you* should benefit too, from this encounter of the unexplained that *you* experienced.
+## If you share your stories with others (I do not mind if you do, please share with others), _but_ they do not share the profits _they_ make _from your story_ this is your content, and I feel _you_ should benefit too, from this encounter of the unexplained that _you_ experienced.
 
 So please, I encourage you to strongly consider sharing your stories of the unexplained with Apexmite Content Federation!
 
-## Are *you* a skeptic?
+## Are _you_ a skeptic?
 
 <img width="512" height="512" align="left" src="https://user-images.githubusercontent.com/104662990/234379664-8c8a6e4b-956f-4468-b3cb-620e8ebcfc78.jpeg"></img>
 
-If *you* think this is all *HOGWASH*, well Apexmite Content Federation encourages *you* to debunk and *respectfully* find and expose possible misunderstandings (you must remain respectful at all times when debunking), skeptics will have a higher burden of proof (we don't want your lazy explainations), and will only be rewarded with third party verification of your debunking claims, of hoaxes, misunderstandings, etc. This does give skeptics a chance to earn rewards if they do debunk stories respectfully with strong third party verifiable proof of your counter aurgument for why this is all hogwash.
+If _you_ think this is all _HOGWASH_, well Apexmite Content Federation encourages _you_ to debunk and _respectfully_ find and expose possible misunderstandings (you must remain respectful at all times when debunking), skeptics will have a higher burden of proof (we don't want your lazy explainations), and will only be rewarded with third party verification of your debunking claims, of hoaxes, misunderstandings, etc. This does give skeptics a chance to earn rewards if they do debunk stories respectfully with strong third party verifiable proof of your counter aurgument for why this is all hogwash.
 
 Bring it skeptics, prove everyone wrong.
 
@@ -43,7 +43,7 @@ I honestly think if couch potato skeptics get outside into the forests, out ther
 
 <img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234382597-58e0498a-11d3-4526-9a3c-93d541d0345c.jpeg"></img>
 
-Get out there into the national forests and parks, and find out, those that share their stories of the unexplained are doing their best to explain something they do not fully understand, so they do not have the burden of proof here, it's *YOU SKEPTICS* that must prove your explainations (and swamp gas ain't gonna cut it here buddy)!
+Get out there into the national forests and parks, and find out, those that share their stories of the unexplained are doing their best to explain something they do not fully understand, so they do not have the burden of proof here, it's _YOU SKEPTICS_ that must prove your explainations (and swamp gas ain't gonna cut it here buddy)!
 
 - 50/50 profit share Encounter Witness, free tier
 - 50/50 profit share Encounter Witness, Pro AI Content Assistant subscription - monthly or annual - maybe beta access lifetime premium memberships for a one time payment, (a reward for signing up early).
@@ -153,7 +153,7 @@ journey
         create user profile: 5: auth_user
     section Conversion Page
         Payment confirmation: 5: auth_user
-        Welcome section: 5: auth_user 
+        Welcome section: 5: auth_user
 ```
 
 ```mermaid

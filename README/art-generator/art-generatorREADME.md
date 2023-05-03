@@ -14,11 +14,9 @@ Open the landing-page folder and update the landing-page.component.html file to 
 
 ```html
 <div id="landing-page">
-
   <h1>Welcome to my Angular landing page!</h1>
 
   <p>This is some sample text for my landing page.</p>
-
 </div>
 ```
 
@@ -26,21 +24,15 @@ In the landing-page folder, update the landing-page.component.css file with your
 
 ```css
 body {
-
   background-color: #f0f0f0;
-
 }
 
 h1 {
-
   color: blue;
-
 }
 
 p {
-
   font-size: 24px;
-
 }
 ```
 
@@ -55,39 +47,36 @@ yarn add @types/three
 In the landing-page folder, create a new file called app.component.ts. This is where you'll write your TypeScript code to make use of three.js in your Angular application. For example:
 
 ```typescript
+import {Component} from "@angular/core";
 
-import { Component } from '@angular/core';
-
-import * as THREE from 'three';
+import * as THREE from "three";
 
 @Component({
+  selector: "app-root",
 
-  selector: 'app-root',
-
-  templateUrl: './landing-page.component.html'
-
+  templateUrl: "./landing-page.component.html",
 })
-
 export class AppComponent {
-
   constructor() {
-
     // Create a new scene, camera, and renderer for the three.js library
 
     const scene = new THREE.Scene();
 
-    const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    const camera = new THREE.PerspectiveCamera(
+      75,
+      window.innerWidth / window.innerHeight,
+      0.1,
+      1000,
+    );
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    const renderer = new THREE.WebGLRenderer({antialias: true});
 
     // Set the size of the renderer to fit the screen
 
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setSize(window.innerWidth, window.innerHeight);
 
-    document.body.appendChild( renderer.domElement );
-
+    document.body.appendChild(renderer.domElement);
   }
-
 }
 ```
 

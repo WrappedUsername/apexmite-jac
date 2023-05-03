@@ -1,6 +1,6 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -19,10 +19,15 @@ $apexmite-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$apexmite-theme: mat.define-light-theme((color: (primary: $apexmite-primary,
-        accent: $apexmite-accent,
-        warn: $apexmite-warn,
-      )));
+$apexmite-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $apexmite-primary,
+      accent: $apexmite-accent,
+      warn: $apexmite-warn,
+    ),
+  )
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
@@ -39,7 +44,8 @@ body {
 }
 
 :host {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
   color: #333;
   box-sizing: border-box;
@@ -275,7 +281,7 @@ footer a {
   align-items: center;
   font-size: 12px;
   padding: 3px 10px;
-  border: 1px solid rgba(27, 31, 35, .2);
+  border: 1px solid rgba(27, 31, 35, 0.2);
   border-radius: 3px;
   background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
   margin-left: 4px;
@@ -284,8 +290,8 @@ footer a {
 
 .github-star-badge:hover {
   background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
-  border-color: rgba(27, 31, 35, .35);
-  background-position: -.5em;
+  border-color: rgba(27, 31, 35, 0.35);
+  background-position: -0.5em;
 }
 
 .github-star-badge .material-icons {
@@ -304,8 +310,7 @@ svg#clouds {
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
-
-  .card-container>*:not(.circle-link),
+  .card-container > *:not(.circle-link),
   .terminal {
     width: 100%;
   }

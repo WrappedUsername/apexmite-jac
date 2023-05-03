@@ -22,31 +22,31 @@ walker init {
 
 ```json
 [
-    {
-      "question": "What is Apexmite?",
-      "answer": "TODO"
-    },
-    {
-      "question": "TODO",
-      "answer": "TODO"
-    },
-    {
-      "question": "TODO",
-      "answer": "TODO"
-    },
-    {
-      "question": "TODO",
-      "answer": "TODO"
-    },
-    {
-      "question": "TODO",
-      "answer": "TODO"
-    },
-    {
-      "question": "TODO",
-      "answer": "TODO"
-    }
-  ]
+  {
+    "question": "What is Apexmite?",
+    "answer": "TODO"
+  },
+  {
+    "question": "TODO",
+    "answer": "TODO"
+  },
+  {
+    "question": "TODO",
+    "answer": "TODO"
+  },
+  {
+    "question": "TODO",
+    "answer": "TODO"
+  },
+  {
+    "question": "TODO",
+    "answer": "TODO"
+  },
+  {
+    "question": "TODO",
+    "answer": "TODO"
+  }
+]
 ```
 
 ## Working faq_graph
@@ -73,7 +73,7 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 2023-04-26 18:05:39.489329: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
 shared model created
 Using device for training ->  cpu
-User > 
+User >
 jaseci > alias list
 {
   "active:graph": "urn:uuid:9569fb8d-c8f3-4730-b089-945007524fd6",

@@ -1,7 +1,7 @@
 # Apexmite - 🚧 Work In Progress 🏗
 
 - This is the Angular PWA client for the Apexmite Jaseci Server
-  - This will be moved to apexmite-jac repo.  
+  - This will be moved to apexmite-jac repo.
 
 ```yml
 Content Federation Idea:
