@@ -1,5 +1,6 @@
 # Jaseci
 .env
+.venv
 .jaseci_logs
 *session
 *jir
