@@ -41,38 +41,39 @@ graph faq_state {
             question="How much does the Pro AI Content Assistant Subscription cost?",
             answer="Pro AI Content Assistant Subscription Pricing Page"
         );
-        faq_state_8 = spawn node::faq_state(
-            question="Are UFO's real?",
-            answer=""
-        );
-        faq_state_9 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_10 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_11 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_12 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_13 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_14 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
-        faq_state_15 = spawn node::faq_state(
-            question="?",
-            answer=""
-        );
+        // ready to expand faq...
+        // faq_state_8 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_9 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_10 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_11 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_12 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_13 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_14 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
+        // faq_state_15 = spawn node::faq_state(
+        //     question="?",
+        //     answer=""
+        // );
 
         // Connecting the nodes together.
         server ++> models;
@@ -84,15 +85,16 @@ graph faq_state {
         faq_state ++> faq_state_5;
         faq_state ++> faq_state_6;
         faq_state ++> faq_state_7;
-        faq_state ++> faq_state_8;
-        faq_state ++> faq_state_9;
-        faq_state ++> faq_state_10;
+        // ready to expand faq...
+        // faq_state ++> faq_state_8;
+        // faq_state ++> faq_state_9;
+        // faq_state ++> faq_state_10;
         // Some people might have a lot of questions...
-        faq_state ++> faq_state_11;
-        faq_state ++> faq_state_12;
-        faq_state ++> faq_state_13;
-        faq_state ++> faq_state_14;
-        faq_state ++> faq_state_15;
+        // faq_state ++> faq_state_11;
+        // faq_state ++> faq_state_12;
+        // faq_state ++> faq_state_13;
+        // faq_state ++> faq_state_14;
+        // faq_state ++> faq_state_15;
     }
 }
 
