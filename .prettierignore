@@ -51,11 +51,10 @@ yarn-error.log
 testem.log
 /typings
 .env
-
-# Smart contracts
-artifacts
-cache
-typechain-types
+.next
+next-env.d.ts
+yarn.lock
+public
 
 # System files
 .DS_Store
