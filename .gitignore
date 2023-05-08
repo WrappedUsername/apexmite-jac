@@ -52,6 +52,11 @@ testem.log
 /typings
 .env
 
+# Smart contracts
+artifacts
+cache
+typechain-types
+
 # System files
 .DS_Store
 Thumbs.db
