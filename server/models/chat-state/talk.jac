@@ -1,4 +1,4 @@
-import {*} with "./server/models/chat-state/chat_graph.jac";
+import {*} with "./chat_graph.jac";
 
 walker talk {
     has prompts;

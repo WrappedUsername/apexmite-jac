@@ -6,6 +6,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract ApexmitePayments is Ownable {
     uint256 public price;
 
+    event Withdrawal(uint amount, uint when);
+
     constructor(uint256 _price) {
         price = _price;
     }
@@ -15,24 +17,7 @@ contract ApexmitePayments is Ownable {
     }
 
     function withdraw() public onlyOwner {
+        emit Withdrawal(address(this).balance, block.timestamp);
         payable(owner()).transfer(address(this).balance);
     }
 }
-
-// pragma solidity 0.8.9;
-
-// import "@openzeppelin/contracts/access/Ownable.sol";
-
-// contract ApexmitePayments is Ownable {
-//     // State variable price
-
-//     constructor() {}
-
-//     /** 
-//     * Payment function for PRO AI Assistant Subscriptions, should accept payments in one lump sum, or
-//     * monthly payments with autopay ability.  
-//     */ 
-
-//     // Only owner withdraw function
-// }
-
