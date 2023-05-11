@@ -1,5 +1,3 @@
-import {*} with "./faq_graph.jac";
-
 walker ingest_faq {
     has kb_file;
     root: take --> node::server;

@@ -17,9 +17,9 @@ Apexmite is a combination of apex and might, and it is more of a title in the re
 Apexmite will be the name of the AI Agent, and if the user chooses to enable AI voice and avatar, Apexmite will read the hero section below:
 ```
 
-The Apexmite Content Federation is an AI powered Jaseci Progressive Web App (desktop, and mobile app downloads, along with website). Apexmite AI will always be there to help you navigate the Apexmite App, as a fully interactive conversational AI, for those that are anon guests, skeptics, or free tier contributors. The anon users that choose to purchase a premium content membership, or content creators sharing their encounters that wish to purchase Apexmite's full creative capacity with a Pro AI Content Assistant subscription will get to use Apexmite AI Agents with greater creative abilities, or other enhanced capabilties whenever they are released.
+The Apexmite Content Federation is an AI powered Jaseci Progressive Web App (desktop, and mobile app downloads, along with website). Apexmite AI will always be there to help you navigate the Apexmite App, as a fully interactive conversational AI, for those that are anon guests, skeptics, or free tier contributors. Content creators sharing their encounters that wish to purchase Apexmite's full creative capacity with a Pro AI Content Assistant subscription will get to use Apexmite AI Agents with greater creative abilities, or other enhanced capabilties whenever they are released.
 
-With the main growth driver for Apexmite Content Federation being a 50/50 profit share, after business operating costs have been paid, to those that share their _true_ stories of unexplained encounters, of ufos, bigfoot, werewolves, etc.
+With the main growth driver for Apexmite Content Federation being a 50/50 profit share, after business operating costs have been paid, to those that share their _true_ stories of unexplained encounters, of UFO's, Bigfoot, Werewolves, etc.
 
 <img width="250" height="250" align="left" src="https://user-images.githubusercontent.com/104662990/234374573-8fc4f050-cf32-4ba4-9733-33fb81fac7af.jpg"></img>
 
@@ -129,15 +129,11 @@ graph TD;
     node_auth_user_dir-->node_user_data_3
     node_auth_user_dir<-->node_creator_dashboard
     node_auth_user_dir<-->node_content_federation
-    node_auth_user_dir<-->node_premium_content_federation
     node_landing_page-->node_success_page
     node_landing_page<-->node_anon_guest_access
     node_success_page-->node_conversion_page
     node_conversion_page-->node_creator_dashboard
-    node_conversion_page-->node_premium_content_membership
-    node_premium_content_membership-->node_premium_content_federation
     node_creator_dashboard-->node_content_federation
-    node_creator_dashboard-->node_premium_content_federation
     node_anon_guest_access<-->node_content_federation
 ```
 
@@ -214,8 +210,20 @@ source .venv/bin/activate
 
 ![Jac](https://user-images.githubusercontent.com/104662990/235270424-83eb1908-005c-4a99-8103-6f845d186d34.png)
 
+- Training the bi-encoder model with the faq training data.
+
+- Starting the Redis server
+
 ```bash
-Successfully installed PyPDF2-1.27.12 audioread-3.0.0 cffi-1.15.1 cython-0.29.34 hdbscan-0.8.29 hyperpyyaml-1.2.0 inflect-6.0.1 jaseci-ai-kit-1.4.0.3 librosa-0.9.2 llvmlite-0.39.1 numba-0.56.4 platformdirs-3.5.0 pooch-1.7.0 pycparser-2.21 pynndescent-0.5.10 resampy-0.4.2 soundfile-0.11.0 speechbrain-0.5.13 torchaudio-0.13.1 umap-learn-0.5.3 unidecode-1.3.6
+sudo service redis-server restart
+```
+
+```bash
+actions load module jac_nlp.bi_enc
+```
+
+```bash
+(venv) wrappedusername@Arrakis:~/apexmite-jac$ sudo jsctl -m jac run bi_enc.jac -walk train -ctx '{"train_file": "chat_training_data.json"}'
 ```
 
 This project's front-end was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.

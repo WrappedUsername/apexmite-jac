@@ -1,5 +1,3 @@
-import {*} with "./chat_graph.jac";
-
 walker talk {
     has prompts;
     can bi_enc.infer;

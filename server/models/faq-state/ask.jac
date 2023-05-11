@@ -1,5 +1,3 @@
-import {*} with "./faq_graph.jac";
-
 walker ask {
     can use.qa_classify;
     has question;
