@@ -18,28 +18,28 @@ graph faq_state {
             answer="Apexmite Content Federation Landing Page"
         );
         faq_state_2 = spawn node::faq_state(
-            question="How do I quit and leave the app?",
-            answer="Quit App Button"
+            question="How does Apexmite Content Federation differ from other content distribution or sharing platforms?",
+            answer="Apexmite Features and Benefits Page"
         );
         faq_state_3 = spawn node::faq_state(
-            question="What are the features and benefits of Apexmite Content Federation?",
-            answer="Features and Benefits of Apexmite Content Federation Page"
+            question="What are micro-services on Apexmite and how do they work?",
+            answer="Apexmite Micro-Services Page"
         );
         faq_state_4 = spawn node::faq_state(
-            question="What is the Premium Content Membership?",
-            answer="Premium Content Membership Page"
+            question="How do I report an unexplained sighting of a UFO on Apexmite?",
+            answer="Apexmite Creator Dashboard"
         );
         faq_state_5 = spawn node::faq_state(
-            question="What Is the Pro AI Content Assistant Subscription?",
-            answer="Pro AI Content Assistant Subscription Page"
+            question="How do I monetize my content on Apexmite?",
+            answer="Apexmite Ad Network Monetization Dashboard"
         );
         faq_state_6 = spawn node::faq_state(
-            question="How much does the Premium Content Membership cost?",
-            answer="Premium Content Membership Pricing Page"
+            question="What kind of content can I create with the Pro AI Content Assistant?",
+            answer="Apexmite Pro AI Content Assistant Subscription Page"
         );
         faq_state_7 = spawn node::faq_state(
             question="How much does the Pro AI Content Assistant Subscription cost?",
-            answer="Pro AI Content Assistant Subscription Pricing Page"
+            answer="Apexmite Pro AI Content Assistant Subscription Pricing Page"
         );
         // ready to expand faq...
         // faq_state_8 = spawn node::faq_state(

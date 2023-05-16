@@ -108,7 +108,7 @@ graph chat_state {
                 "Apexmite Micro-Services Page",
                 "Apexmite Creator Dashboard",
                 "Apexmite Ad Network Monetization Dashboard",
-                "Apexmite Pro AI Content Assistant Subscription Page",
+                "Apexmite Pro AI Content Assistant Subscription Page"
                 ]
         );
 
