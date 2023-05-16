@@ -125,10 +125,60 @@ graph chat_state {
 
         /// @notice This is for new sign-ups to payment page.
         chat_state_1 +[intent_transition(intent="Yes")]+> node_landing_page;
+        chat_state_1 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_1 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
         /// @dev Please make this only accessable by auth-users from Apexmite Content Federation Landing Page.
-        chat_state_1 +[intent_transition(intent="Creator Dashboard")]+> node_creator_dashboard;
+        chat_state_1 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_1 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_1 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
+        chat_state_1 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
 
-        chat_state_2 +[intent_transition(intent="Welcome Page")]+> chat_state_1;
-        chat_state_2 +[intent_transition(intent="Yes")]+> node_creator_dashboard;
+        chat_state_2 +[intent_transition(intent="Yes")]+> node_features_benefits;
+        chat_state_2 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_2 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
+        chat_state_2 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_2 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_2 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
+        chat_state_2 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
+
+        chat_state_3 +[intent_transition(intent="Yes")]+> node_micro_services;
+        chat_state_3 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_3 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_3 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_3 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_3 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
+        chat_state_3 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
+
+        chat_state_4 +[intent_transition(intent="Yes")]+> node_creator_dashboard;
+        chat_state_4 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_4 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_4 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
+        chat_state_4 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_4 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
+        chat_state_4 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
+
+        chat_state_5 +[intent_transition(intent="Yes")]+> node_ad_network_dashboard;
+        chat_state_5 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_5 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_5 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
+        chat_state_5 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_5 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
+        chat_state_5 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
+
+        chat_state_6 +[intent_transition(intent="Yes")]+> node_subscription_page;
+        chat_state_6 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_6 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_6 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
+        chat_state_6 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_6 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_6 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Pricing Page")]+> chat_state_7;
+
+        chat_state_7 +[intent_transition(intent="Yes")]+> node_subscription_pricing_page;
+        chat_state_7 +[intent_transition(intent="Apexmite Content Federation Landing Page")]+> chat_state_1;
+        chat_state_7 +[intent_transition(intent="Apexmite Features and Benefits Page")]+> chat_state_2;
+        chat_state_7 +[intent_transition(intent="Apexmite Micro-Services Page")]+> chat_state_3;
+        chat_state_7 +[intent_transition(intent="Apexmite Creator Dashboard")]+> chat_state_4;
+        chat_state_7 +[intent_transition(intent="Apexmite Ad Network Monetization Dashboard")]+> chat_state_5;
+        chat_state_7 +[intent_transition(intent="Apexmite Pro AI Content Assistant Subscription Page")]+> chat_state_6;
     }
 }
