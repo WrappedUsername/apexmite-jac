@@ -223,11 +223,11 @@ actions load module jac_nlp.bi_enc
 ```
 
 ```bash
-(venv) wrappedusername@Arrakis:~/apexmite-jac$ sudo jsctl -m jac run bi_enc.jac -walk train -ctx '{"train_file": "chat_training_data.json"}'
+jac run bi_enc.jac -walk train -ctx '{"train_file": "chat_training_data.json"}'
 ```
 
 ```bash
-(venv) wrappedusername@Arrakis:~/apexmite-jac$ sudo jsctl -m jac run bi_enc.jac -walk infer -ctx "{\"labels\": [\"Apexmite Content Federation Landing Page\", \"Apexmite Features and Benefits Page\", \"Apexmite Micro-Services Page\", \"Apexmite Creator Dashboard\", \"Apexmite Ad Network Monetization Dashboard\", \"Apexmite Pro AI Content Assistant Subscription Page\", \"Apexmite Pro AI Content Assistant Subscription Pricing Page\"]}"
+jac run bi_enc.jac -walk infer -ctx "{\"labels\": [\"Apexmite Content Federation Landing Page\", \"Apexmite Features and Benefits Page\", \"Apexmite Micro-Services Page\", \"Apexmite Creator Dashboard\", \"Apexmite Ad Network Monetization Dashboard\", \"Apexmite Pro AI Content Assistant Subscription Page\", \"Apexmite Pro AI Content Assistant Subscription Pricing Page\"]}"
 ```
 
 This project's front-end was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
