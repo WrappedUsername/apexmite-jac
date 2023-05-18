@@ -11,19 +11,7 @@
     "Can I provide feedback or suggestions for improving Apexmite Content Federation, and if so, how?",
     "Are there any restrictions or limitations on the types of devices or platforms I can use to access Apexmite Content Federation?"
   ],
-  "Quit App Button": [
-    "How do I quit and leave the app?",
-    "How do I access the Quit App Button in the app?",
-    "Is there a keyboard shortcut or gesture I can use to activate the Quit App Button?",
-    "Can I save my progress or data before quitting the app using the Quit App Button?",
-    "Will the Quit App Button automatically save my work before quitting the app, or do I need to manually save it?",
-    "Is there a way to undo or cancel quitting the app after I've pressed the Quit App Button?",
-    "Can I customize the behavior or function of the Quit App Button in any way?",
-    "Are there any risks or downsides to quitting the app using the Quit App Button, such as losing unsaved data?",
-    "Can I reopen the app or resume my work after quitting using the Quit App Button, or do I need to start over?",
-    "Is the Quit App Button available on all versions or platforms of the app, or only on certain ones?"
-  ],
-  "Features and Benefits of Apexmite Content Federation Page": [
+  "Apexmite Features and Benefits Page": [
     "How does Apexmite Content Federation differ from other content distribution or sharing platforms?",
     "What types of content can I access through Apexmite Content Federation?",
     "Is the content on Apexmite Content Federation curated or vetted in any way to ensure quality or accuracy?",
@@ -35,19 +23,43 @@
     "Are there any fees or costs associated with using Apexmite Content Federation?",
     "How do the features and benefits of Apexmite Content Federation benefit content creators or publishers, as well as consumers?"
   ],
-  "Premium Content Membership Page": [
-    "What is the Premium Content Membership?",
-    "How is the Premium Content Membership different from the free content available on the site?",
-    "What are the benefits of becoming a Premium Content Member?",
-    "Is there a trial period available for the Premium Content Membership?",
-    "How much does the Premium Content Membership cost?",
-    "Is the Premium Content Membership a one-time fee or a recurring subscription?",
-    "How do I sign up for the Premium Content Membership?",
-    "Can I cancel my Premium Content Membership at any time?",
-    "Will I still have access to the Premium Content after my membership expires or is cancelled?",
-    "How do I access the Premium Content once I've become a member?"
+  "Apexmite Micro-Services Page": [
+    "What custom items can I purchase for my Apexmite Avatar?",
+    "What are micro-services on Apexmite and how do they work?",
+    "How do I customize the appearance of my Apexmite avatar using micro-services?",
+    "Can I purchase micro-services for other aspects of my Apexmite profile or account?",
+    "How do I find and browse the available micro-services on Apexmite?",
+    "How do I pay for micro-services on Apexmite and what payment methods are accepted?",
+    "How do I request a custom micro-service that is not currently available on Apexmite?",
+    "How do I report an issue or problem with a micro-service I purchased on Apexmite?",
+    "How do I contact the seller or provider of a micro-service on Apexmite if I have questions or concerns?",
+    "Can I create a micro-service of my own and make it avaible for purchase on Apexmite?"
   ],
-  "Pro AI Content Assistant Subscription Page": [
+  "Apexmite Creator Dashboard": [
+    "How do I report an unexplained sighting of a UFO on Apexmite?",
+    "What is the Creator Dashboard and how do I access it?",
+    "What can I create with the Creator Dashboard on Apexmite?",
+    "How do I upload my content to Apexmite using the Creator Dashboard?",
+    "How do I edit or update my content on Apexmite using the Creator Dashboard?",
+    "How do I track the performance of my content on Apexmite using the Creator Dashboard?",
+    "How do I communicate with my audience or followers on Apexmite using the Creator Dashboard?",
+    "How do I optimize my content for SEO on Apexmite using the Creator Dashboard?",
+    "What kind of analytics and data can I access through the Creator Dashboard on Apexmite?",
+    "How do I report technical issues or problems with the Creator Dashboard on Apexmite?"
+  ],
+  "Apexmite Ad Network Monetization Dashboard": [
+    "How do I monetize my content on Apexmite?",
+    "How do I set up ad monetization for my content on Apexmite?",
+    "How do I track my ad earnings on Apexmite?",
+    "Can I control the type of ads displayed on my content?",
+    "How do I get paid for the ad revenue generated on my content?",
+    "How often are ad earnings paid out to content creators on Apexmite?",
+    "Is there a minimum requirement for the number of views or followers to monetize my content on Apexmite?",
+    "Are there fees associated with using the Ad Network Monetization Dashboard on Apexmite?",
+    "How do I troubleshoot issues with ad monetization on Apexmite?",
+    "Do I really lose my ad revenue if a skeptic proves my sighting to be a hoax?"
+  ],
+  "Apexmite Pro AI Content Assistant Subscription Page": [
     "What Is the Pro AI Content Assistant Subscription?",
     "What kind of content can I create with the Pro AI Content Assistant?",
     "What are the benefits of using the Pro AI Content Assistant?",
@@ -59,19 +71,7 @@
     "Can I use the Pro AI Content Assistant on multiple devices or platforms?",
     "How do I sign up for the Pro AI Content Assistant Subscription?"
   ],
-  "Premium Content Membership Pricing Page": [
-    "How much does the Premium Content Membership cost?",
-    "Is there a free trial period available for the Premium Content Membership?",
-    "Can I switch between different pricing plans for the Premium Content Membership?",
-    "What payment methods are accepted for the Premium Content Membership?",
-    "How do I know which Premium Content Membership plan is right for me?",
-    "What happens if I don't renew my Premium Content Membership?",
-    "Are there any additional fees or charges associated with the Premium Content Membership?",
-    "Can I cancel my Premium Content Membership at any time?",
-    "Is there a discount available for annual Premium Content Membership plans?",
-    "How do I update my billing information for my Premium Content Membership?"
-  ],
-  "Pro AI Content Assistant Subscription Pricing Page": [
+  "Apexmite Pro AI Content Assistant Subscription Pricing Page": [
     "How much does the Pro AI Content Assistant Subscription cost?",
     "What are the different pricing options for the Pro AI Content Assistant Subscription?",
     "Is there a free trial period available for the Pro AI Content Assistant Subscription?",

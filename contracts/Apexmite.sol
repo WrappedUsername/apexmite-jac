@@ -10,6 +10,8 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 contract Apexmite is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, ERC20FlashMint {
     uint256 public lastMint;
     uint256 public constant INFLATION_RATE = 2; // 2% annual inflation
+    
+    event Withdrawal(uint amount, uint when);
 
     constructor() ERC20("Apexmite", "APXMT") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
@@ -40,4 +42,8 @@ contract Apexmite is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, ERC20FlashMin
     }
 
     // Only owner withdraw function
+    function withdraw() public onlyOwner {
+        emit Withdrawal(address(this).balance, block.timestamp);
+        payable(owner()).transfer(address(this).balance);
+    }
 }

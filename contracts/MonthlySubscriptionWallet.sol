@@ -7,6 +7,8 @@ contract MonthlySubscriptionWallet is Ownable {
     ApexmitePayments apexmitePayments;
     uint256 public monthlyPaymentAmount;
 
+    event Withdrawal(uint amount, uint when);
+
     constructor(ApexmitePayments _apexmitePayments, uint256 _monthlyPaymentAmount) {
         apexmitePayments = _apexmitePayments;
         monthlyPaymentAmount = _monthlyPaymentAmount;
@@ -14,6 +16,11 @@ contract MonthlySubscriptionWallet is Ownable {
 
     function payMonthlySubscription() public onlyOwner {
         apexmitePayments.paySubscription{value: monthlyPaymentAmount}();
+    }
+
+    function withdraw() public onlyOwner {
+        emit Withdrawal(address(this).balance, block.timestamp);
+        payable(owner()).transfer(address(this).balance);
     }
 }
 
