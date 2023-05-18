@@ -227,7 +227,25 @@ jac run bi_enc.jac -walk train -ctx '{"train_file": "chat_training_data.json"}'
 ```
 
 ```bash
-jac run bi_enc.jac -walk infer -ctx "{\"labels\": [\"Apexmite Content Federation Landing Page\", \"Apexmite Features and Benefits Page\", \"Apexmite Micro-Services Page\", \"Apexmite Creator Dashboard\", \"Apexmite Ad Network Monetization Dashboard\", \"Apexmite Pro AI Content Assistant Subscription Page\", \"Apexmite Pro AI Content Assistant Subscription Pricing Page\"]}"
+jac run bi_enc.jac -walk infer -ctx '{\"labels\": [\"Apexmite Content Federation Landing Page\", \"Apexmite Features and Benefits Page\", \"Apexmite Micro-Services Page\", \"Apexmite Creator Dashboard\", \"Apexmite Ad Network Monetization Dashboard\", \"Apexmite Pro AI Content Assistant Subscription Page\", \"Apexmite Pro AI Content Assistant Subscription Pricing Page\"]}'
+```
+
+- Save the model
+
+```bash
+jac run bi_enc.jac -walk save_model -ctx '{"model_path": "dialogue_intent_model"}'
+```
+
+- Load the model
+
+```bash
+jac run bi_enc.jac -walk load_model -ctx '{"model_path": "dialogue_intent_model"}'
+```
+
+- Running the Chatbot Example
+
+```bash
+jac run main.jac
 ```
 
 This project's front-end was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
