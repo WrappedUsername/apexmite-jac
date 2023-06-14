@@ -248,4 +248,4 @@ jac run bi_enc.jac -walk load_model -ctx '{"model_path": "dialogue_intent_model"
 jac run main.jac
 ```
 
-This project's front-end was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
