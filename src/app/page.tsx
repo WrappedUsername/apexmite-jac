@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="relative h-screen flex-col items-center justify-between">
-      <h1 className="absolute h-24 w-full bottom-0 animate-bounce flex-row text-center text-white font-bold text-2xl cursor-pointer hover:text-green-300">
+      <h1 className="absolute h-24 w-full bottom-0 animate-bounce flex-row text-center text-white text-2xl">
         Please, scroll down
       </h1>
       <video autoPlay muted loop className=".video flex object-cover">
